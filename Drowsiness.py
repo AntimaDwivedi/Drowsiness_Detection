@@ -12,7 +12,7 @@ EYE_AR_COSEC_FRAMES=5
 
 COUNTER=0
 ALARM_ON=False
-
+#for playing sound
 def sound_alarm(soundfile):
     playsound.playsound(soundfile)
 def eye_aspect_ratio(eye):
